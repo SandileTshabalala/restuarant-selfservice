@@ -1,0 +1,145 @@
+.kiosk-promo {
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 1000px;  
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.promo-overlay {
+    position: absolute;
+    top: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 8px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.promo{
+    color: #007bff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.imagePromo {
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+    /* margin-right: 20px; */
+    /* flex-shrink: 0; */
+}
+.textPromo {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    flex-grow: 1; 
+    /* text-align: left; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+}
+
+.slogan {
+    font-size: 32px;
+    color: #333;
+    font-weight: bold;
+}
+
+.promo-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.promo-button:hover {
+    background-color: #0056b3;
+}
+/* featured */
+.kiosk-featured {
+    width: 100%;
+    overflow: hidden;  
+    /* position: relative; */
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for a cleaner look */
+}
+
+.featured-item {
+    min-width: 500px;
+    margin-right: 20px;
+    text-align: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    position: relative; /* Relative positioning for overlay */
+}
+
+.featured-item img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+    display: block; /* Ensure images fill the container properly */
+}
+
+.overlay {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+}
+/* cart */
+.cart-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #ff5733; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    z-index: 1000; 
+}
+
+.close-cart {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

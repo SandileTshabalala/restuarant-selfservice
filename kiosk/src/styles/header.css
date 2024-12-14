@@ -1,0 +1,68 @@
+* {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.kiosk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+}
+
+.weather img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.weather span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.kiosk-nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    /* This ensures that all items are vertically aligned */
+}
+
+.kiosk-nav li {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the text under the images */
+}
+
+.kiosk-nav li img {
+    width: 135px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* Ensures the image is cropped to a circular shape */
+}
+
+.kiosk-nav li p {
+    margin: 0;
+    font-size: 14px;
+    /* Adjust text size as needed */
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.new-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+    margin: 20px 0;
+}
+
+.new-item img{
+    width: 35px; 
+    height: auto;
+    margin-right: 15px;
+}
+
+
